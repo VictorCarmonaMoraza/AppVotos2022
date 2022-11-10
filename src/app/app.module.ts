@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { ComponentsModule } from './components/components.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { ComponentsModule } from './components/components.module';
     BrowserModule,
     AppRoutingModule,
     ComponentsModule,
-    RouterModule
+    RouterModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
